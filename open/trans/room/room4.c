@@ -32,13 +32,12 @@ long);
   setup();
   call_other("/obj/board/start_b", "???");
 }
-//old message //
-//如果你是这里的新朋友，虔诚的祈祷(pray), 天神会将你传送到新手练功区喔。
-//新手区域拿掉 by Chan
-/*void init()
+
+//如果你是这里的新朋友，虔诚的祈祷(pray howard), 天神会将你传送到新手练功区喔。
+void init()
 {
   ::init();
-  add_action ("do_pray","pray");
+  add_action ("do_pray","pray howard");
 }
 int do_pray()
 {
@@ -47,7 +46,7 @@ int do_pray()
         message_vision(HIY"天神感应到$N虔诚的心意从天空射出一道光芒将就$N带走。\n\n"NOR, this_player());
         this_player()->move("/open/start/room/newhand5.c");
         return 1;
-}*/
+}
 
 
 
