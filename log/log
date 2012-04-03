@@ -1,0 +1,639 @@
+[Dec 15 20:23:56]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 15 20:24:35]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 15 20:29:33]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 15 20:31:53]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 15 21:19:40]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 15 21:22:54]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 15 21:24:57]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 15 21:26:34]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 15 21:30:07]cmds/std/ident.c line 358: parse error
+[Dec 15 21:30:07]cmds/std/ident.c line 464: End of file in string
+[Dec 15 21:30:25]cmds/std/ident.c line 358: parse error
+[Dec 15 21:30:25]cmds/std/ident.c line 464: End of file in string
+[Dec 15 21:31:14]cmds/std/ident.c line 392: parse error
+[Dec 15 21:31:14]cmds/std/ident.c line 464: End of file in string
+[Dec 15 21:51:20]cmds/std/enable.c line 17: parse error
+[Dec 15 21:51:20]cmds/std/enable.c line 169: End of file in string
+[Dec 15 21:52:20]cmds/std/enable.c line 18: parse error
+[Dec 15 21:52:20]cmds/std/enable.c line 169: End of file in string
+[Dec 15 22:37:56]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 15 23:22:01]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:22:01]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:22:01]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:22:01]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:22:01]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:22:01]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:22:17]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:22:17]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:22:17]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:22:17]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:22:17]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:22:17]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:23:16]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:23:16]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:23:16]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:23:16]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:23:16]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:23:16]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:18]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:24:18]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:18]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:18]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:18]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:18]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:19]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:24:19]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:19]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:19]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:19]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:19]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:26]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:24:26]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:26]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:26]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:26]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:26]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:29]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:24:29]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:29]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:29]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:29]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:29]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:44]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:57]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:24:57]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:57]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:57]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:57]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:57]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:58]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:24:58]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:58]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:24:58]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:58]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:24:58]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:25:05]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:25:05]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:25:05]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:25:05]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:25:05]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:25:05]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:25:08]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:25:08]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:25:08]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:25:08]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:25:08]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:25:08]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:25:10]daemon/skill/badstrike.c line 28: parse error
+[Dec 15 23:25:10]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:25:10]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 15 23:25:10]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:25:10]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:25:10]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 15 23:51:30]daemon/skill/snow-martial.c line 363: parse error
+[Dec 15 23:51:30]daemon/skill/snow-martial.c line 365: $var illegal outside of function pointer.
+[Dec 15 23:51:30]daemon/skill/snow-martial.c line 365: $var illegal outside of function pointer.
+[Dec 15 23:51:30]daemon/skill/snow-martial.c line 366: $var illegal outside of function pointer.
+[Dec 15 23:51:30]daemon/skill/snow-martial.c line 377: $var illegal outside of function pointer.
+[Dec 15 23:51:30]daemon/skill/snow-martial.c line 377: $var illegal outside of function pointer.
+[Dec 15 23:51:55]daemon/skill/snow-martial.c line 363: parse error
+[Dec 15 23:51:55]daemon/skill/snow-martial.c line 365: $var illegal outside of function pointer.
+[Dec 15 23:51:55]daemon/skill/snow-martial.c line 365: $var illegal outside of function pointer.
+[Dec 15 23:51:55]daemon/skill/snow-martial.c line 366: $var illegal outside of function pointer.
+[Dec 15 23:51:55]daemon/skill/snow-martial.c line 377: $var illegal outside of function pointer.
+[Dec 15 23:51:55]daemon/skill/snow-martial.c line 377: $var illegal outside of function pointer.
+[Dec 16 12:00:50]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 12:13:20]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 12:33:46]adm/daemons/rankd.c line 29: Undefined variable 'write'
+[Dec 16 12:33:46]adm/daemons/rankd.c line 29: parse error
+[Dec 16 13:43:24]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 13:44:17]daemon/skill/badstrike.c line 28: parse error
+[Dec 16 13:44:17]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 16 13:44:17]daemon/skill/badstrike.c line 35: $var illegal outside of function pointer.
+[Dec 16 13:44:17]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 16 13:44:17]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 16 13:44:17]daemon/skill/badstrike.c line 43: $var illegal outside of function pointer.
+[Dec 16 18:04:20]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 19:11:03]cmds/std/away.c line 12: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 19:11:03]cmds/std/away.c line 17: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 19:13:18]cmds/adm/updir.c line 5: Cannot #include /doc/help.h
+[Dec 16 19:13:49]cmds/adm/punlish.c line 6: parse error
+[Dec 16 19:13:49]cmds/adm/unpunlish.c line 6: parse error
+[Dec 16 19:15:01]cmds/std/away.c line 12: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 19:15:01]cmds/std/away.c line 17: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 19:15:56]open/badman/npc/npc.c line 10: End of file in string
+[Dec 16 19:15:56]open/badman/npc/npc.c line 10: Undefined variable 'evilstriback'
+[Dec 16 19:15:56]open/badman/npc/npc.c line 10: parse error
+[Dec 16 19:15:56]open/badman/npc/pard.c line 7: parse error
+[Dec 16 19:15:56]open/badman/npc/pard.c line 45: $var illegal outside of function pointer.
+[Dec 16 19:15:56]open/badman/npc/pard.c line 45: $var illegal outside of function pointer.
+[Dec 16 19:15:56]open/badman/npc/pard.c line 49: End of file in string
+[Dec 16 19:15:57]open/badman/npc/wolf02.c line 26: Warning: Function pointer returning string constant is NOT a function call
+[Dec 16 19:15:57]open/badman/obj/meal.c line 7: parse error
+[Dec 16 19:15:57]open/badman/obj/meal.c line 31: End of file in string
+[Dec 16 19:15:57]open/badman/obj/well.c line 18: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 19:15:57]open/badman/obj/wine.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 19:15:58]open/badman/npc/pard.c line 7: parse error
+[Dec 16 19:15:58]open/badman/npc/pard.c line 45: $var illegal outside of function pointer.
+[Dec 16 19:15:58]open/badman/npc/pard.c line 45: $var illegal outside of function pointer.
+[Dec 16 19:15:58]open/badman/npc/pard.c line 49: End of file in string
+[Dec 16 19:16:00]open/beggar/room/obj/gstaff.c line 7: Undefined variable 'HIG'
+[Dec 16 19:16:00]open/beggar/room/obj/gstaff.c line 7: parse error
+[Dec 16 19:16:01]open/beggar/skill/dragon-kee.c line 43: parse error
+[Dec 16 19:16:01]open/beggar/skill/dragon-kee.c line 44: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/dragon-kee.c line 44: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/dragon-kee.c line 55: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/dragon-kee.c line 56: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/dragon-kee.c line 68: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/forever-love.c line 140: parse error
+[Dec 16 19:16:01]open/beggar/skill/forever-love.c line 141: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/forever-love.c line 148: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/forever-love.c line 156: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/forever-love.c line 165: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/forever-love.c line 166: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/kang_s.c line 52: parse error
+[Dec 16 19:16:01]open/beggar/skill/pdarray.c line 5: Illegal to inherit after defining global variables.
+[Dec 16 19:16:01]open/beggar/skill/snow-martial.c line 378: parse error
+[Dec 16 19:16:01]open/beggar/skill/snow-martial.c line 380: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/snow-martial.c line 380: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/snow-martial.c line 381: $var illegal outside of function pointer.
+[Dec 16 19:16:01]open/beggar/skill/snow-martial.c line 422: End of file in string
+[Dec 16 19:16:03]open/capital/npc/cheng.c line 231: Redeclaration of function accept_object.
+[Dec 16 19:16:03]open/capital/npc/gy.c line 22: parse error
+[Dec 16 19:16:03]open/capital/npc/gy.c line 144: $var illegal outside of function pointer.
+[Dec 16 19:16:03]open/capital/npc/gy.c line 150: $var illegal outside of function pointer.
+[Dec 16 19:16:03]open/capital/npc/gy.c line 156: $var illegal outside of function pointer.
+[Dec 16 19:16:03]open/capital/npc/gy.c line 210: $var illegal outside of function pointer.
+[Dec 16 19:16:03]open/capital/npc/gy.c line 210: $var illegal outside of function pointer.
+[Dec 16 19:22:02]open/badman/npc/wolf02.c line 26: Warning: Function pointer returning string constant is NOT a function call
+[Dec 16 19:24:04]open/badman/obj/well.c line 17: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 19:25:40]open/badman/obj/wine.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 19:25:55]open/badman/obj/wine.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 19:27:32]open/beggar/room/obj/gstaff.c line 19: Wrong number of arguments to set
+    Expected: 2  Got: 0
+[Dec 16 19:29:11]open/beggar/skill/dragon-kee.c line 43: parse error
+[Dec 16 19:29:11]open/beggar/skill/dragon-kee.c line 44: $var illegal outside of function pointer.
+[Dec 16 19:29:11]open/beggar/skill/dragon-kee.c line 44: $var illegal outside of function pointer.
+[Dec 16 19:29:11]open/beggar/skill/dragon-kee.c line 55: $var illegal outside of function pointer.
+[Dec 16 19:29:11]open/beggar/skill/dragon-kee.c line 56: $var illegal outside of function pointer.
+[Dec 16 19:29:11]open/beggar/skill/dragon-kee.c line 68: $var illegal outside of function pointer.
+[Dec 16 19:31:27]open/beggar/skill/kang_s.c line 50: parse error
+[Dec 16 19:31:43]open/beggar/skill/kang_s.c line 48: parse error
+[Dec 16 19:32:36]open/beggar/skill/kang_s.c line 49: parse error
+[Dec 16 19:32:54]open/beggar/skill/kang_s.c line 50: parse error
+[Dec 16 19:33:03]open/beggar/skill/kang_s.c line 51: parse error
+[Dec 16 19:35:41]open/beggar/skill/kang_s.c line 79: String too long
+[Dec 16 19:35:41]open/beggar/skill/kang_s.c line 79: parse error
+[Dec 16 19:37:46]open/capital/npc/cheng.c line 231: Redeclaration of function accept_object.
+[Dec 16 19:44:25]obj/board/immo_b.c line 5: parse error
+[Dec 16 19:44:30]obj/dagger.c line 18: Wrong number of arguments to set
+    Expected: 2  Got: 1
+[Dec 16 19:44:30]obj/example/besttea.c line 53: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 19:44:30]obj/example/wineskin.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 19:44:30]obj/m_weapon.c line 89: parse error
+[Dec 16 19:44:31]obj/npc/kawali.c line 2: Cannot #include /u/c/cage/lib/cage.h
+[Dec 16 19:44:31]obj/npc/kawali.c line 47: Undefined variable '_OBJ'
+[Dec 16 19:44:31]obj/npc/kawali.c line 47: parse error
+[Dec 16 19:44:31]obj/npc/kawali.c line 78: Illegal LHS
+[Dec 16 19:44:31]obj/npc/kawali.c line 79: Undefined variable 'ob'
+[Dec 16 19:44:31]obj/npc/kawali.c line 82: Undefined variable 'link'
+[Dec 16 19:44:31]obj/npc/obj/battle_armor.c line 5: parse error
+[Dec 16 19:44:31]obj/token.c line 108: Undefined variable 'SAVE_EXTENSION'
+[Dec 16 19:44:31]obj/token.c line 186: Undefined variable 'SAVE_EXTENSION'
+[Dec 16 19:44:31]obj/turtle_blood.c line 14: parse error
+[Dec 16 19:45:51]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 19:45:52]adm/daemons/network/httpd.c line 7: Cannot #include net/http.h
+[Dec 16 19:45:52]adm/daemons/network/httpd.c line 26: Undefined variable 'HTTPD_LOG'
+[Dec 16 19:45:52]adm/daemons/network/httpd.c line 29: Undefined variable 'HTTPD_PORT'
+[Dec 16 19:45:52]adm/daemons/network/httpd.c line 45: Undefined variable 'HTTPD_LOG'
+[Dec 16 19:45:52]adm/daemons/network/httpd.c line 53: Undefined variable 'HTTPD_LOG'
+[Dec 16 19:45:52]adm/daemons/network/httpd.c line 119: Undefined variable 'HTTPD_LOG'
+[Dec 16 19:45:52]adm/daemons/network/inetd.c line 11: Cannot #include config.h
+[Dec 16 19:45:52]adm/daemons/network/inetd.c line 323: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 19:45:52]adm/daemons/network/inetd.c line 374: Undefined function member_group
+[Dec 16 19:45:52]adm/daemons/network/mail_serv.c line 10: Cannot #include daemons.h
+[Dec 16 19:45:52]adm/daemons/network/mail_serv.c line 11: Cannot #include uid.h
+[Dec 16 19:45:52]adm/daemons/network/mail_serv.c line 12: Cannot #include post.h
+[Dec 16 19:45:52]adm/daemons/network/mail_serv.c line 52: Undefined variable 'DIR_POSTAL'
+[Dec 16 19:45:52]adm/daemons/network/mail_serv.c line 53: Undefined variable 'POSTAL_D'
+[Dec 16 19:45:52]adm/daemons/network/mail_serv.c line 65: Undefined function mud_name
+[Dec 16 19:45:52]adm/daemons/network/mail_serv.c line 82: Warning: Value of conditional expression is unused
+[Dec 16 19:45:52]adm/daemons/network/mail_serv.c line 83: Warning: Value of conditional expression is unused
+[Dec 16 19:45:52]adm/daemons/network/ms.c line 15: Cannot #include config.h
+[Dec 16 19:45:52]adm/daemons/network/ms.c line 16: Cannot #include mailer.h
+[Dec 16 19:45:52]adm/daemons/network/ms.c line 17: Cannot #include daemons.h
+[Dec 16 19:45:52]adm/daemons/network/ms.c line 19: Cannot #include uid.h
+[Dec 16 19:45:52]adm/daemons/network/ms.c line 46: Undefined variable 'MAILDIR'
+[Dec 16 19:45:52]adm/daemons/network/ms.c line 48: Undefined variable 'THIS_MUD'
+[Dec 16 19:45:52]adm/daemons/network/netmail.c line 17: Cannot #include mailer.h
+[Dec 16 19:45:52]adm/daemons/network/netmail.c line 34: Undefined function data_netmail_file
+[Dec 16 19:45:52]adm/daemons/network/netmail.c line 34: Undefined variable 'SAVE_EXTENSION'
+[Dec 16 19:45:52]adm/daemons/network/netmail.c line 34: Undefined function file_exists
+[Dec 16 19:45:52]adm/daemons/network/netmail.c line 37: Bad argument 1 to efun restore_object()
+[Dec 16 19:45:52]adm/daemons/network/netmail.c line 38: Invalid argument types to '+' ( string vs unknown )
+[Dec 16 19:45:52]adm/daemons/network/pingd.c line 11: Cannot #include uid.h
+[Dec 16 19:45:52]adm/daemons/network/pingd.c line 14: parse error
+[Dec 16 19:45:52]adm/daemons/network/pingtcp.c line 12: Cannot #include uid.h
+[Dec 16 19:45:52]adm/daemons/network/pingtcp.c line 15: parse error
+[Dec 16 19:45:53]adm/daemons/network/telnetd.c line 10: Cannot #include uid.h
+[Dec 16 19:45:53]adm/daemons/network/telnetd.c line 12: parse error
+[Dec 16 19:45:53]adm/daemons/network/userid.c line 12: Cannot #include priv.h
+[Dec 16 19:45:53]adm/daemons/network/userid.c line 13: Cannot #include config.h
+[Dec 16 19:45:53]adm/daemons/network/userid.c line 18: parse error
+[Dec 16 19:46:42]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 19:47:44]adm/daemons/network/httpd.c line 7: Cannot #include net/http.h
+[Dec 16 19:47:44]adm/daemons/network/httpd.c line 26: Undefined variable 'HTTPD_LOG'
+[Dec 16 19:47:44]adm/daemons/network/httpd.c line 29: Undefined variable 'HTTPD_PORT'
+[Dec 16 19:47:44]adm/daemons/network/httpd.c line 45: Undefined variable 'HTTPD_LOG'
+[Dec 16 19:47:44]adm/daemons/network/httpd.c line 53: Undefined variable 'HTTPD_LOG'
+[Dec 16 19:47:44]adm/daemons/network/httpd.c line 119: Undefined variable 'HTTPD_LOG'
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.bak.c line 41: parse error
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.bak.c line 42: $var illegal outside of function pointer.
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.bak.c line 52: $var illegal outside of function pointer.
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.bak.c line 53: $var illegal outside of function pointer.
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.bak.c line 64: $var illegal outside of function pointer.
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.bak.c line 65: $var illegal outside of function pointer.
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.c line 43: parse error
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.c line 44: $var illegal outside of function pointer.
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.c line 44: $var illegal outside of function pointer.
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.c line 55: $var illegal outside of function pointer.
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.c line 56: $var illegal outside of function pointer.
+[Dec 16 19:51:00]daemon/class/beggar/siseforce/dragon-kee.c line 68: $var illegal outside of function pointer.
+[Dec 16 19:51:01]daemon/class/beggar/siseforce/dragon.bak.c line 41: parse error
+[Dec 16 19:51:01]daemon/class/beggar/siseforce/dragon.bak.c line 42: $var illegal outside of function pointer.
+[Dec 16 19:51:01]daemon/class/beggar/siseforce/dragon.bak.c line 52: $var illegal outside of function pointer.
+[Dec 16 19:51:01]daemon/class/beggar/siseforce/dragon.bak.c line 53: $var illegal outside of function pointer.
+[Dec 16 19:51:01]daemon/class/beggar/siseforce/dragon.bak.c line 64: $var illegal outside of function pointer.
+[Dec 16 19:51:01]daemon/class/beggar/siseforce/dragon.bak.c line 65: $var illegal outside of function pointer.
+[Dec 16 19:51:06]daemon/class/scholar/god-plan/fish.c line 33: parse error
+[Dec 16 19:51:06]daemon/class/scholar/god-plan/rob.c line 33: parse error
+[Dec 16 19:51:06]daemon/class/scholar/obj/secret_book.c line 17: parse error
+[Dec 16 19:51:06]daemon/class/scholar/obj/secret_book.c line 110: $var illegal outside of function pointer.
+[Dec 16 19:51:06]daemon/class/scholar/obj/secret_book.c line 168: End of file in string
+[Dec 16 19:51:06]daemon/class/scholar/sixgod-plan/fish.c line 33: parse error
+[Dec 16 19:51:06]daemon/class/scholar/sixgod-plan/rob.c line 32: parse error
+[Dec 16 19:51:10]daemon/skill/ashura-strike.c line 11: End of file in string
+[Dec 16 19:51:10]daemon/skill/ashura-strike.c line 11: parse error
+[Dec 16 19:51:12]daemon/skill/forever-love.c line 140: parse error
+[Dec 16 19:51:12]daemon/skill/forever-love.c line 141: $var illegal outside of function pointer.
+[Dec 16 19:51:12]daemon/skill/forever-love.c line 148: $var illegal outside of function pointer.
+[Dec 16 19:51:12]daemon/skill/forever-love.c line 156: $var illegal outside of function pointer.
+[Dec 16 19:51:12]daemon/skill/forever-love.c line 165: $var illegal outside of function pointer.
+[Dec 16 19:51:12]daemon/skill/forever-love.c line 166: $var illegal outside of function pointer.
+[Dec 16 19:51:14]daemon/skill/snow-martial.c line 363: parse error
+[Dec 16 19:51:14]daemon/skill/snow-martial.c line 365: $var illegal outside of function pointer.
+[Dec 16 19:51:14]daemon/skill/snow-martial.c line 365: $var illegal outside of function pointer.
+[Dec 16 19:51:14]daemon/skill/snow-martial.c line 366: $var illegal outside of function pointer.
+[Dec 16 19:51:14]daemon/skill/snow-martial.c line 377: $var illegal outside of function pointer.
+[Dec 16 19:51:14]daemon/skill/snow-martial.c line 377: $var illegal outside of function pointer.
+[Dec 16 20:02:03]daemon/skill/ashura-strike.c line 18: End of file in string
+[Dec 16 20:02:03]daemon/skill/ashura-strike.c line 18: parse error
+[Dec 16 20:02:13]daemon/skill/ashura-strike.c line 25: End of file in string
+[Dec 16 20:02:13]daemon/skill/ashura-strike.c line 25: parse error
+[Dec 16 20:02:24]daemon/skill/ashura-strike.c line 30: End of file in string
+[Dec 16 20:02:24]daemon/skill/ashura-strike.c line 30: parse error
+[Dec 16 20:04:09]daemon/skill/snow-martial.c line 438: parse error
+[Dec 16 20:04:09]daemon/skill/snow-martial.c line 439: $var illegal outside of function pointer.
+[Dec 16 20:04:09]daemon/skill/snow-martial.c line 439: $var illegal outside of function pointer.
+[Dec 16 20:04:09]daemon/skill/snow-martial.c line 440: $var illegal outside of function pointer.
+[Dec 16 20:04:09]daemon/skill/snow-martial.c line 483: End of file in string
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon-kee.bak.c line 41: parse error
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon-kee.bak.c line 42: $var illegal outside of function pointer.
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon-kee.bak.c line 52: $var illegal outside of function pointer.
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon-kee.bak.c line 53: $var illegal outside of function pointer.
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon-kee.bak.c line 64: $var illegal outside of function pointer.
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon-kee.bak.c line 65: $var illegal outside of function pointer.
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon.bak.c line 41: parse error
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon.bak.c line 42: $var illegal outside of function pointer.
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon.bak.c line 52: $var illegal outside of function pointer.
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon.bak.c line 53: $var illegal outside of function pointer.
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon.bak.c line 64: $var illegal outside of function pointer.
+[Dec 16 20:04:51]daemon/class/beggar/siseforce/dragon.bak.c line 65: $var illegal outside of function pointer.
+[Dec 16 20:19:26]open/center/npc/goufu.c line 34: parse error
+[Dec 16 20:19:26]open/center/npc/goufu.c line 63: End of file in string
+[Dec 16 20:20:00]open/center/npc/goufu.c line 34: parse error
+[Dec 16 20:20:00]open/center/npc/goufu.c line 63: End of file in string
+[Dec 16 20:22:27]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 20:22:27]obj/example/wineskin.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 20:23:15]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 20:23:53]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Dec 16 21:45:34]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Dec 16 22:39:17]open/heaven/castle/room/sky_gate.c line 6: End of file in string
+[Dec 16 22:39:17]open/heaven/castle/room/sky_gate.c line 6: parse error
+[Dec 16 22:40:03]open/heaven/castle/room/sky_gate.c line 6: End of file in string
+[Dec 16 22:40:03]open/heaven/castle/room/sky_gate.c line 6: parse error
+[Apr 17 11:43:07]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 17 11:45:07]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 17 11:57:02]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 17 12:21:27]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 17 12:27:57]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 17 12:38:55]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 17 12:38:55]obj/example/wineskin.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 17 13:08:55]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 17 13:37:32]obj/example/wineskin.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 17 20:03:40]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 18 08:04:24]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 18 08:07:03]open/dancer/obj/pool.c line 21: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 08:08:03]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 08:08:03]obj/example/wineskin.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 08:09:52]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 08:10:34]open/capital/obj/tea.c line 10: Undefined function set_name
+[Apr 18 08:10:34]open/capital/obj/tea.c line 11: Undefined function set_weight
+[Apr 18 08:10:34]open/capital/obj/tea.c line 13: Undefined function set_default_object
+[Apr 18 08:10:34]open/capital/obj/tea.c line 30: Undefined function setup
+[Apr 18 08:10:46]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 08:14:19]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 08:14:28]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 08:18:12]open/gsword/mob/woman.c line 24: Warning: Function pointer returning string constant is NOT a function call
+[Apr 18 08:59:38]daemon/skill/dremagic.c line 25: Undefined variable 'conjure_magic_file'
+[Apr 18 09:03:04]daemon/skill/dremagic.c line 24: Reserved type name unexpected.
+[Apr 18 09:03:04]daemon/skill/dremagic.c line 24: parse error
+[Apr 18 09:03:04]daemon/skill/dremagic.c line 24: Illegal LHS
+[Apr 18 09:03:04]daemon/skill/dremagic.c line 37: Undefined variable 'me'
+[Apr 18 09:03:04]daemon/skill/dremagic.c line 37: Illegal LHS
+[Apr 18 09:03:04]daemon/skill/dremagic.c line 39: Undefined variable 'bug'
+[Apr 18 09:03:33]daemon/skill/dremagic.c line 24: parse error
+[Apr 18 09:03:33]daemon/skill/dremagic.c line 24: Illegal LHS
+[Apr 18 09:03:33]daemon/skill/dremagic.c line 29: Warning: Value of conditional expression is unused
+[Apr 18 09:04:08]daemon/skill/dremagic.c line 26: parse error
+[Apr 18 09:04:08]daemon/skill/dremagic.c line 26: Illegal LHS
+[Apr 18 09:04:08]daemon/skill/dremagic.c line 31: Warning: Value of conditional expression is unused
+[Apr 18 09:10:28]open/gsword/mob/visitor.c line 22: Warning: Function pointer returning string constant is NOT a function call
+[Apr 18 09:53:12]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 18 09:55:46]daemon/class/dancer/dremagic/fireball.c line 10: Reserved type name unexpected.
+[Apr 18 09:55:46]daemon/class/dancer/dremagic/fireball.c line 10: parse error
+[Apr 18 09:55:46]daemon/class/dancer/dremagic/fireball.c line 11: Undefined variable 'me'
+[Apr 18 09:55:46]daemon/class/dancer/dremagic/fireball.c line 11: Illegal LHS
+[Apr 18 09:55:46]daemon/class/dancer/dremagic/fireball.c line 16: Undefined variable 'target'
+[Apr 18 09:55:46]daemon/class/dancer/dremagic/fireball.c line 25: Undefined variable 'msg'
+[Apr 18 10:09:39]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 18 10:36:29]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 18 10:38:44]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 18 10:52:31]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 10:52:31]obj/example/wineskin.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 10:52:47]open/start/obj/beck.c line 20: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 18 10:55:54]open/gsword/mob/woman.c line 24: Warning: Function pointer returning string constant is NOT a function call
+[Apr 18 13:56:22]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 18 13:59:13]open/gsword/mob/woman.c line 24: Warning: Function pointer returning string constant is NOT a function call
+[Apr 18 13:59:18]open/gsword/mob/visitor.c line 22: Warning: Function pointer returning string constant is NOT a function call
+[Apr 18 20:04:10]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 19 08:03:56]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 19 10:54:21]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 19 11:36:11]open/main/room/p12.c line 37: parse error
+[Apr 19 11:36:15]open/main/room/p12.c line 37: parse error
+[Apr 19 11:43:58]open/capital/npc/cheng.c line 231: Redeclaration of function accept_object.
+[Apr 19 11:44:13]open/capital/npc/cheng.c line 231: Redeclaration of function accept_object.
+[Apr 19 12:44:52]open/ping/room/graveyard.c line 9: parse error
+[Apr 19 12:44:52]open/ping/room/graveyard.c line 32: End of file in string
+[Apr 19 13:09:47]open/capital/npc/master_chen.c line 176: parse error
+[Apr 19 13:09:47]open/capital/npc/master_chen.c line 176: Illegal LHS
+[Apr 19 13:09:47]open/capital/npc/master_chen.c line 177: Reserved type name unexpected.
+[Apr 19 13:09:47]open/capital/npc/master_chen.c line 177: parse error
+[Apr 19 13:09:47]open/capital/npc/master_chen.c line 177: Illegal LHS
+[Apr 19 13:09:47]open/capital/npc/master_chen.c line 178: Reserved type name unexpected.
+[Apr 19 13:12:38]open/gsword/mob/woman.c line 24: Warning: Function pointer returning string constant is NOT a function call
+[Apr 19 13:19:42]open/gsword/mob/visitor.c line 22: Warning: Function pointer returning string constant is NOT a function call
+[Apr 19 16:02:04]open/main/room/f12.c line 54: Undefined variable 'open'
+[Apr 19 16:02:04]open/main/room/f12.c line 54: Bad argument 1 to '/': "string "
+[Apr 19 16:02:04]open/main/room/f12.c line 54: Undefined variable 'main'
+[Apr 19 16:02:04]open/main/room/f12.c line 55: Undefined variable 'm21'
+[Apr 19 16:02:04]open/main/room/f12.c line 55: parse error
+[Apr 19 16:02:04]open/main/room/f12.c line 57: End of file in string
+[Apr 19 16:07:28]open/snow/npc/dguger.c line 48: parse error
+[Apr 19 16:07:28]open/snow/npc/dguger.c line 127: End of file in string
+[Apr 19 16:10:13]open/snow/npc/dguger.c line 48: parse error
+[Apr 19 16:10:13]open/snow/npc/dguger.c line 127: End of file in string
+[Apr 19 16:11:15]open/snow/npc/dguger.c line 48: parse error
+[Apr 19 16:11:15]open/snow/npc/dguger.c line 127: End of file in string
+[Apr 19 16:12:41]open/snow/npc/dguger.c line 48: parse error
+[Apr 19 16:12:41]open/snow/npc/dguger.c line 127: End of file in string
+[Apr 19 16:13:28]open/snow/npc/dguger.c line 48: parse error
+[Apr 19 16:13:28]open/snow/npc/dguger.c line 127: End of file in string
+[Apr 19 20:04:21]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 20 08:03:55]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 20 08:08:44]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 20 10:33:44]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 20 10:50:14]open/capital/npc/master_chen.c line 176: parse error
+[Apr 20 10:50:14]open/capital/npc/master_chen.c line 176: Illegal LHS
+[Apr 20 10:50:14]open/capital/npc/master_chen.c line 177: Reserved type name unexpected.
+[Apr 20 10:50:14]open/capital/npc/master_chen.c line 177: parse error
+[Apr 20 10:50:14]open/capital/npc/master_chen.c line 177: Illegal LHS
+[Apr 20 10:50:14]open/capital/npc/master_chen.c line 178: Reserved type name unexpected.
+[Apr 20 10:50:20]open/capital/npc/master_chen.c line 176: parse error
+[Apr 20 10:50:20]open/capital/npc/master_chen.c line 176: Illegal LHS
+[Apr 20 10:50:20]open/capital/npc/master_chen.c line 177: Reserved type name unexpected.
+[Apr 20 10:50:20]open/capital/npc/master_chen.c line 177: parse error
+[Apr 20 10:50:20]open/capital/npc/master_chen.c line 177: Illegal LHS
+[Apr 20 10:50:20]open/capital/npc/master_chen.c line 178: Reserved type name unexpected.
+[Apr 20 11:06:53]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 23 09:13:15]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 23 09:14:51]open/start/obj/beck.c line 20: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr 23 20:03:58]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 24 08:03:42]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr 24 10:09:52]open/capital/obj/soup.c line 43: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Mar 29 11:36:13]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 29 11:36:13]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 29 11:36:13]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 29 11:37:56]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 12:36:38]open/center/npc/sale_girl.c line 40: Warning: Unknown \ escape.
+[Mar 29 12:36:38]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 12:37:02]obj/corpse.c line 51: Warning: Unknown \ escape.
+[Mar 29 14:42:45]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 15:03:43]obj/corpse.c line 51: Warning: Unknown \ escape.
+[Mar 29 16:06:40]obj/corpse.c line 51: Warning: Unknown \ escape.
+[Mar 29 16:49:32]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 29 16:49:33]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 29 16:49:33]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 29 16:49:44]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 17:03:25]open/center/npc/sale_girl.c line 40: Warning: Unknown \ escape.
+[Mar 29 17:10:18]obj/corpse.c line 51: Warning: Unknown \ escape.
+[Mar 29 17:24:39]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 29 17:24:39]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 29 17:24:39]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 29 17:25:30]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 17:28:46]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 29 17:28:46]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 29 17:28:46]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 29 17:29:05]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 17:30:56]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 29 17:30:56]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 29 17:30:56]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 29 17:31:06]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 17:49:15]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 29 17:49:15]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 29 17:49:15]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 29 17:49:24]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 17:51:42]obj/corpse.c line 51: Warning: Unknown \ escape.
+[Mar 29 17:52:36]obj/example/besttea.c line 53: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Mar 29 18:24:40]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 29 18:24:40]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 29 18:24:40]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 29 18:25:08]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 19:24:16]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 29 19:24:16]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 29 19:24:16]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 29 20:00:40]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 20:50:38]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 29 20:50:38]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 29 20:50:38]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 29 20:51:10]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 29 21:07:25]obj/corpse.c line 51: Warning: Unknown \ escape.
+[Mar 29 21:38:39]std/bboard.c line 21: Warning: Unknown \ escape.
+[Mar 30 23:33:09]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Mar 30 23:33:09]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Mar 30 23:33:09]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Mar 30 23:49:48]std/bboard.c line 21: Warning: Unknown \ escape.
+[Apr  1 18:43:26]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr  1 18:43:26]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Apr  1 18:43:26]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Apr  1 18:43:56]std/bboard.c line 21: Warning: Unknown \ escape.
+[Apr  1 20:00:26]std/bboard.c line 21: Warning: Unknown \ escape.
+[Apr  1 20:14:28]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr  1 20:14:28]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Apr  1 20:14:28]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Apr  1 20:14:43]std/bboard.c line 21: Warning: Unknown \ escape.
+[Apr  1 20:46:07]obj/corpse.c line 51: Warning: Unknown \ escape.
+[Apr  1 21:27:02]open/gsword/mob/woman.c line 24: Warning: Function pointer returning string constant is NOT a function call
+[Apr  1 21:27:02]open/gsword/mob/sells2.c line 47: Warning: Unknown \ escape.
+[Apr  1 21:27:06]open/capital/obj/tea.c line 42: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr  1 21:27:06]obj/example/wineskin.c line 30: Warning: long() inherited from both /feature/liquid.c and /feature/name.c (via /std/item.c); using the definition in /feature/liquid.c.
+[Apr  1 21:30:10]obj/corpse.c line 51: Warning: Unknown \ escape.
+[Apr  1 21:31:40]open/gsword/mob/visitor.c line 22: Warning: Function pointer returning string constant is NOT a function call
+[Apr  1 21:43:37]open/death/npc/ghost1.c line 156: Warning: Unknown \ escape.
+[Apr  1 21:44:56]std/bboard.c line 21: Warning: Unknown \ escape.
+[Apr  1 22:02:01]daemon/skill/linpo-steps.c line 94: Warning: Unknown \ escape.
+[Apr  1 22:02:01]daemon/skill/linpo-steps.c line 104: Warning: Unknown \ escape.
+[Apr  1 22:04:38]adm/daemons/aliasd.c line 61: Warning: A negative constant as the second element of arr[x..y] no longer means indexing from the end.  Use arr[x..<y]
+[Apr  1 22:04:38]daemon/skill/yu-needle.c line 73: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/universe.c line 83: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/taiyiforce.c line 16: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/taiganfist.c line 165: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/taigan-steps.c line 14: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/taigan-parry.c line 43: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/surprise-ten.c line 19: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/surprise-ten.c line 137: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/surprise-ten.c line 206: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/surprise-ten.c line 243: Warning: Unknown \ escape.
+[Apr  1 22:04:38]daemon/skill/surprise-ten.c line 337: Warning: Unknown \ escape.
+[Apr  1 22:04:53]std/bboard.c line 21: Warning: Unknown \ escape.
+[Apr  1 22:17:45]open/gsword/mob/sells2.c line 47: Warning: Unknown \ escape.
+[Apr  1 22:17:45]open/gsword/mob/woman.c line 24: Warning: Function pointer returning string constant is NOT a function call

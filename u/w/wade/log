@@ -1,0 +1,52 @@
+[Feb 19 01:31:05]u/w/wade/room/test.c line 39: Undefined function dd before ;
+[Feb 19 01:31:05]u/w/wade/room/test.c line 77: Redeclaration of function dd. before the end of line
+[Feb 18 23:21:00]u/w/wade/room/test.c line 59: Undefined variable 'BOLD' before  NOR "%s\n" +
+[Feb 18 23:21:00]u/w/wade/room/test.c line 59: parse error before  NOR "%s\n" +
+[Feb 18 23:21:00]u/w/wade/room/test.c line 67: Illegal LHS before the end of line
+[Feb 18 23:21:00]u/w/wade/room/test.c line 68: parse error before  ("\t≈‰≈º «: %O", co
+[Feb 18 23:23:16]u/w/wade/room/test.c line 142: Undefined variable 'SKILL_USAGE_ATTACK' before ;
+[Feb 18 23:23:16]u/w/wade/room/test.c line 143: Undefined variable 'SKILL_USAGE_DEFENSE' before ;
+[Feb 18 23:23:16]u/w/wade/room/test.c line 168: Undefined variable 'ob' before  me;
+[Feb 18 23:24:04]u/w/wade/room/test.c line 170: Undefined variable 'ob' before  me;
+[Feb 18 23:54:14]u/w/wade/test.c line 47: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 18 23:54:14]u/w/wade/test.c line 55: Wrong number of arguments to snoop
+    Expected: 1  Got: 2 before ;
+[Feb 18 23:54:14]u/w/wade/test.c line 55: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 18 23:56:18]u/w/wade/test.c line 47: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 18 23:56:18]u/w/wade/test.c line 55: Wrong number of arguments to snoop
+    Expected: 1  Got: 2 before ;
+[Feb 18 23:56:18]u/w/wade/test.c line 55: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 18 23:58:12]u/w/wade/test.c line 49: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 18 23:58:12]u/w/wade/test.c line 57: Wrong number of arguments to snoop
+    Expected: 1  Got: 2 before ;
+[Feb 18 23:58:12]u/w/wade/test.c line 57: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 18 23:59:12]u/w/wade/test.c line 49: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 18 23:59:12]u/w/wade/test.c line 57: Wrong number of arguments to snoop
+    Expected: 1  Got: 2 before ;
+[Feb 18 23:59:12]u/w/wade/test.c line 57: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 19 00:01:04]u/w/wade/test.c line 49: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 19 00:01:04]u/w/wade/test.c line 57: Wrong number of arguments to snoop
+    Expected: 1  Got: 2 before ;
+[Feb 19 00:01:04]u/w/wade/test.c line 57: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 19 00:02:30]u/w/wade/test.c line 49: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Feb 19 00:02:30]u/w/wade/test.c line 57: Wrong number of arguments to snoop
+    Expected: 1  Got: 2 before ;
+[Feb 19 00:02:30]u/w/wade/test.c line 57: Bad type for argument 1 of snoop ( string vs object ) before ;
+[Mar 11 22:16:17]u/w/wade/workroom.c line 52: Reserved type name unexpected. before ob)) write ("Not fou
+[Mar 11 22:16:17]u/w/wade/workroom.c line 52: Missing type for argument before )) write ("Not found
+[Mar 11 22:16:17]u/w/wade/workroom.c line 52: parse error before  write ("Not found.\
+[Aug 14 20:15:29]u/w/wade/item/cloak.c line 8: Cannot #include daemons.h before the end of line
+[Aug 14 20:15:29]u/w/wade/item/cloak.c line 10: Cannot #include money.h before the end of line
+[Aug 14 20:15:29]u/w/wade/item/cloak.c line 14: Cannot #include language.h before the end of line
+[Aug 14 20:15:29]u/w/wade/item/cloak.c line 16: Cannot #include man.h before the end of line
+[Aug 14 20:15:29]u/w/wade/item/cloak.c line 20: parse error before ;
+[May  4 09:03:31]u/w/wade/item/cloak.c line 8: Cannot #include daemons.h before the end of line
+[May  4 09:03:31]u/w/wade/item/cloak.c line 10: Cannot #include money.h before the end of line
+[May  4 09:03:31]u/w/wade/item/cloak.c line 14: Cannot #include language.h before the end of line
+[May  4 09:03:31]u/w/wade/item/cloak.c line 16: Cannot #include man.h before the end of line
+[May  4 09:03:31]u/w/wade/item/cloak.c line 20: parse error before ;
+[May  4 09:12:16]u/w/wade/item/cloak.c line 8: Cannot #include daemons.h before the end of line
+[May  4 09:12:16]u/w/wade/item/cloak.c line 10: Cannot #include money.h before the end of line
+[May  4 09:12:16]u/w/wade/item/cloak.c line 14: Cannot #include language.h before the end of line
+[May  4 09:12:16]u/w/wade/item/cloak.c line 16: Cannot #include man.h before the end of line
+[May  4 09:12:16]u/w/wade/item/cloak.c line 20: parse error before ;

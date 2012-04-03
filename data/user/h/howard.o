@@ -1,0 +1,15 @@
+#/obj/user.c
+dbase (["eff_gin":351,"learned_points":1236,"eff_kee":796,"sen":180,"gin":180,"status":0,"actions":,"trans":(["room4":1,"room2":1,]),"class":"fighter","id":"howard","kar":25,"kee":216,"bellicosity":4,"con":30,"MKS":23,"per":20,"cps":20,"PKTIME":0,"first_login":1332930406,"force":260,"spi":30,"pker":0,"int":30,"mblade-new":1,"water":9243,"一周上线时间":31327,"一周":1332930405,"cor":25,"mud_age":31327,"last_on":1333290096,"food":9045,"str":30,"quests":(["sale_girl":1,"stone":1,]),"last_location":"/open/gsword/room/suking6","gender":"男性","name":"黄正多","default_actions":,"family":(["enter_time":1332947038,"family_name":"雪苍派","master_name":"刘全书","generation":5,"title":"弟子","master_id":"master liu","privs":0,"next_title":"弟子",]),"startroom":"/open/snow/room/room2","last_from":"127.0.0.1","disable_type":" <昏迷不醒>","combat_exp":1360,"max_standby":50,"max_force":260,"race":"人类","potential":1263,"birthday":1332930367,"ghost":0,"title":"雪苍派第五代弟子","age":14,"max_sen":351,"exp":(["first_exp":1,]),"eff_sen":351,"max_gin":351,"max_kee":796,])
+basic_skill (["cure":"cure","stick":"stick","axe":"axe","sword":"sword","move":"move","be-officer":"be-officer","blade":"blade","throwing":"throwing","poison":"poison","magic":"magic","archery":"archery","dodge":"dodge","parry":"parry","gamble":"gamble","literate":"literate","unarmed":"unarmed","force":"force","plan":"plan","trade":"trade","array":"array","lance":"lance","stabber":"stabber","staff":"staff","gmagic":"gmagic","dagger":"dagger","hammer":"hammer","spells":"spells","striback":"striback","whip":"whip",])
+i 18
+other 1
+all_exp 1
+my_exp 404
+get_exp 10
+get_pot 5
+eita 632
+y "visitor"
+skills (["dodge":40,"snow-martial":50,"unarmed":45,"literate":49,"sword":50,"force":45,"trade":42,"snowforce":47,])
+learned (["dodge":51,"snow-martial":0,"sword":5,"unarmed":2,"force":11,])
+skill_map (["unarmed":"snow-martial","force":"snowforce",])
+autoload ({"/obj/money/silver:10","/obj/money/gold:100",})

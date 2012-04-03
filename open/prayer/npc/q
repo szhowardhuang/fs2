@@ -1,0 +1,59 @@
+#include <ansi.h>
+inherit NPC;
+void create()
+{
+        set_name("[31mÑª÷è÷ë[0m", ({ "red-kylin","kylin" }) );
+        set("race", "Ò°ÊÞ");
+        set("age", 200);
+        set("long", "ÆÆÐ°¶´¿ßÖÐ×î¿Ö²ÀµÄ¹ÖÊÞ,È«ÉíÈç»ðÑ×°ãÍ¨ºì.\n");
+        set("str", 100);
+        set("max_kee", 10000);
+        set("kee", 10000);
+        set("max_force", 10000);
+        set("force",10000);
+        set("force_factor",5);
+        set("limbs", ({ "Í·²¿", "¸¹²¿","ÉíÌå", "Ç°½Å" , "ºó½Å" , "Î²°Í" }) );
+        set("verbs", ({ "bite"}));
+        set("combat_exp",1500000);
+        set_temp("apply/armor", 300);
+        set_temp("apply/attack", 100);
+        set("attitude","aggressive");
+        set_skill("dodge",130);
+      set("chat_chance",10);
+    set("chat_msg",({                                  
+    (: this_object(),random_move() :), }));
+        setup(); 
+        carry_object("/open/gsword/obj/ff_item");
+        carry_object("/open/gsword/obj/f_item");
+        set_heart_beat(1);
+}
+void heart_beat()
+{
+  object *enemy,me;
+  int i;
+  me = this_object();
+  if( me->is_fighting() )
+  {
+    if( 50 > random(200) )
+    {
+      enemy = me->query_enemy();
+      i=random(sizeof(enemy));
+      if(environment(me) == environment(enemy[i]))
+      if( random(10) > 7)
+      {
+       message_vision(HIR+"Ñª÷è÷ëÍÂ³öºìÉ«µÄ¶¾Îí,³¯$NµÄ·½ÏòÏ®¾í¶øÀ´!!!\n"+NOR,enemy[i]);
+       enemy[i]->receive_damage("kee",450,me);
+       COMBAT_D->report_status(enemy[i], 0);
+      }else{
+      message_vision(HIC+"Ñª÷è÷ëÕÅ¿ªÑªÅè´ó¿ÚÒ§×¡ÁË$NµÄÍ·,´óºÈÒ»Éù:¨Ï¨á ¨É¨Ú  ¨Ì¨Ú~~ !!!!!\n"+NOR,enemy[i]);
+     enemy[i]->receive_damage("kee",200,me);
+      COMBAT_D->report_status(enemy[i], 0);
+      me->receive_curing("kee",500);
+      me->receive_heal("kee",500);
+      }
+     }
+   }
+   if( me->query("kee") < 0 )
+      me->die();
+   ::heart_beat();
+}                             

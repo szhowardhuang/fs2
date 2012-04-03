@@ -1,0 +1,228 @@
+//by roger
+#include <ansi.h>
+#include "/open/open.h"
+inherit NPC;
+inherit F_MASTER;
+string do_array();
+string do_tigi();
+string do_sixplan();
+string do_koming();
+string do_sehan();
+string do_hoba();
+string do_book();
+
+
+void create() {
+        set_name(HIC"Ã´π´Õ˚"NOR,({"master wone","wone","scholar"}));
+        set("class","scholar");
+        set("nickname","$HIW$ÃÏœ¬µ⁄“ªæ¸ ¶$NOR$");
+        set("title",HIY"Ω™◊”—¿"NOR);
+        set("long",
+"Ã´π´Õ˚“‘÷˙÷‹ “Õı≥Ø»°µ√ÃÏœ¬÷ÆÃÏ≤≈æ¸ ¶, ≤¢«“ 
+◊‘¥¥±¯∑®º∆ƒ±, ∏¸ §ÀÔ◊”±¯∑®°£ 
+");
+        set("inquiry", ([
+        "∞Àÿ‘’Û"        : (: do_array :),
+        "÷Ó∏ø◊√˜"        : (: do_koming :),
+        "¡˘Ë∫"          : (: do_sixplan :),
+        "Ã´º´∞Àÿ‘"    : (: do_tigi :),
+        "÷Ó∏’∞"      : (: do_sehan :),
+        "÷Ó∏“ÿ’—"    : (: do_hoba :),
+        "¡˘Ë∫“◊±æ"      : (: do_book :),
+]));
+        set("str",40);
+        set("cor",25);
+        set("gender","ƒ––‘");
+        set("guild_master",1);
+        set("attitude","heroism");
+        set("family/family_name","»Â√≈");
+        set("max_gin",5000);
+        set("max_kee",8000);
+        set("max_sen",8000);
+        set("max_force",8000);
+        set_skill("sixgod-plan",120);
+        set("combat_exp",5000000);
+        set("functions/movedown/level",100);
+        set("functions/finger/level",100);
+set("chat_chance_combat", 100);
+set("chat_msg_combat",({
+(: perform_action("stabber.movedown") :),
+(: perform_action("stabber.finger") :),
+}));
+        set("chat_chance",50);
+        set("chat_msg",({
+        }));
+        setup();
+       carry_object("/open/scholar/room/newplan/obj/pen")->wield();
+       add_money("gold",50);
+ }
+string do_array()
+{
+        object me=this_player();
+        if(me->query_temp("six_ask")==8)
+        {
+          me->set_temp("six_ask",9);
+        return("
+          ∞Àÿ‘’Û «÷Ó∏ø◊√˜À˘¥¥÷Æ’Û–Œ, »Áπ˚“™
+        ¥≥π˝»•, ≤¢–Î“™¡ÀΩ‚Ã´º´∞Àÿ‘÷Æ±‰ªØ°£");
+}
+else
+        return("◊ˆ»À±Ã´∞Àÿ‘, ’Ê «µƒ!!!");
+}
+string do_koming()
+{
+        object me=this_player();
+          if(me->query_temp("six_ask")==5)
+        {
+          me->set_temp("six_ask",6);
+          return("
+          ƒ„Àµø◊√˜¬??À˚æÕ «Œ≈√˚»˝π˙ ±¥˙µƒ¥Ûæ¸
+           ¶—Ω, »Â√≈µƒ÷Ó∏…ÒÀ„æÕ «”…ø◊√˜À˘–¥
+          , ≤ªπ˝÷Ó∏…ÒÀ„¿Ô√Êµƒ∂´Œ˜≤¢√ª”–Œ“µƒ 
+          ¡˘Ë∫¿Ô√Êµƒº∆ƒ±∏ﬂº∂, À˘“‘÷Ó∏ø◊√˜±„
+          Ω´Œ“µƒ¡˘Ë∫ΩË»•, µΩ√ªœÎµΩ≤ªæ√÷Æ∫ÛÀ˚
+          æÕ≤°À¿¡À, Ω´ È¡Ù∏¯À˚µƒ¥´»À÷Ó∏’∞°£");
+        }
+        else
+        return("ø◊√˜??ƒ« «œπ√‹Õ€∏Á..ø…“‘≥‘¬???");
+}          
+string do_sehan()
+{
+        object me=this_player();
+        if ( me->query_temp("six_ask")==6)
+        {
+          me->set_temp("six_ask",7);
+          return("
+          ÷Ó∏’∞ «÷Ó∏ø◊√˜µƒ∫Û»À, “≤ «“ª∏ˆ∏ª
+          ”–÷«ƒ±µƒ»À, ≤ªπ˝À˚»¥∞—¡˘Ë∫∏¯¡ÀÀ˚◊Ó
+          –°µƒ∂˘◊”÷Ó∏“ÿ’—°£");
+        }
+        else
+          return("»•À¿¿≤!!»Àº“µƒ∂˘◊””÷≤ª «Œ“…˙µƒ, Õ€∞¢‘÷!!");
+}
+string do_hoba()
+{
+        object me=this_player();
+        if( me->query_temp("six_ask")==7)
+        {
+          me->set_temp("six_ask",8);
+          return("
+          ÷Ó∏“ÿ’— «÷Ó∏“ª√≈µƒ∞‹¿‡, À˚ƒ√◊≈
+          ¡˘Ë∫¥À ÈŒ£∫¶◊≈ ¿»À, ƒ„∞ÔŒ“∞— È»°ªÿ
+          ∞…, ÷Ó∏“ÿ’—œ÷‘⁄Œ™”⁄∞Àÿ‘’Û÷–!!");
+        }
+        else
+          return(" ≤√¥ ≤√¥???");
+}
+string do_sixplan()
+{
+        object me=this_player();
+        if( me->query("family/family_name")=="»Â√≈" && (me->query_temp("six_ask")==4))
+        {
+          me->set_temp("six_ask",5);
+          return("
+          ¡˘Ë∫ «Œ“–¥µƒ’Ω¬‘ ÈºÆ÷Æ“ª, ≤ªπ˝Œ“∞—À˚¥´∏¯¡À÷Ó∏ø◊√˜¡À
+          ∞…°£");
+        }
+        else
+        return("¡˘˜“??ø…“‘≥‘¬??°£");
+}
+string do_tigi()
+{
+        object me=this_player();
+        if( me->query_temp("six_ask")==9)
+        {
+          me->set_temp("six_ask",10);
+          return("
+          ∞Àÿ‘’Û”–∑÷∞À÷÷ÿ‘œÛ, ◊ﬂ∑® «”…÷Ó∏ø◊√˜¿˚”√Ã´º´ø……˙¡Ω
+          “«, ¡Ω“«ø……˙ÀƒœÛ, ÀƒœÛ”÷…˙∞Àÿ‘µƒ‘≠¿ÌÀ˘–¥≥…µƒ, ∆‰÷–
+          ø…ƒ‹ª·”ˆµΩ∏˜÷÷µ– ÷, ∆‰ µÀ˚æÕΩ´∞Àÿ‘’Û…Ë‘⁄¥À…ΩµƒŒ˜ƒœ
+          ƒ„œÎ»•æÕ»•∞…, ∞›Õ–ƒ„¡À°£
+        ");
+        }
+        else
+          return("Ã´º´’≈»˝∑·~~~~ya~~~");
+}
+string do_book()
+{
+        object me=this_player();
+        object ob;
+        if(me->query("family/family_name") != "»Â√≈")
+        return("ƒ„ƒ√¡À“≤√ª”√!!\n");
+        if(me->query_temp("get_sixgod_book"))
+        return("ƒ„“—æ≠ƒ√π˝¡À¿≤!!\n");
+        if(!me->query("mark/sixgod-plan"))
+        return("∞›Õ–..ƒ„ƒ√¡À“≤√ª”–”√—Ω?!!\n");
+        else
+        {
+        ob=new("/u/s/sueplan/obj/book1");
+        ob->move(me);
+        message_vision("Ã´π´Õ˚∏¯∏ˆ$N“ª±æ È\n",me);
+        }
+}
+
+int accept_object(object me, object obj)
+{
+        if( obj->query("id") == "sixgod-plan book" )
+        {
+if( me->query_temp("ko_houng") == 1 && !me->query("mark/sixgod-plan") && me->query_temp("ko_hace")==1 && me->query_temp("ko_show")== 1 && me->query_temp("ko_kao")==1 && me->query_temp("ko_yea")== 1 && me->query_temp("ko_jone")== 1)
+          {
+            command("say º»»ªƒ„∂·»°¡˘Ë∫∆Ê¬‘”–π¶, Œ“±„Ω´¡˘Ë∫∆Ê¬‘…œº«‘ÿµƒº∆ƒ±
+¥´ ⁄”Îƒ„∞…°£");
+tell_object(me,"ª∆ Øπ´∂‘ƒ„Àµ : “‘∫Ûø…“‘µΩŒ“’‚ƒ√∆ﬂ≤ ∑ÔªÀ± (want ∆ﬂ≤ ∑ÔªÀ± )°£\n");
+tell_object(users(),"
+[1;37mÃ´π´Õ˚∑¢≥ˆÀ¨¿ µƒ–¶…˘ :
+[1;37m    °ı         π˛π˛°´∫√“ªƒ±¬‘µƒΩ´≤≈"+me->query("name")+"—Ω£°£°
+[1;33m    ƒ„π˚»ª√ª”–»√Œ“ ßÕ˚£°£°∫√∞…£¨Œ“æÕ¥´ƒ„Œ“µƒ±ÿ…˙æ¯—ß -\n
+[1;5;36m           °Æ¡˘   Ë∫   ∆Ê    ¬‘°Ø[0m\n\n");
+        me->set("mark/sixgod-plan",1);
+        me->set("title","[1;36m»Â◊[1;37m°Æ[1;45;37m¡˘Ë∫∆Ê¬‘[1;0m[1;37m°Ø[1;33m¥´»À[0m");
+          }
+          destruct(obj);
+        }
+        else
+        {
+        command("kick "+getuid(me));
+        command("say ’‚∂´Œ˜≤ª «ƒ„¥Úµƒ∞…???");
+        }
+        return 1;
+}
+void init()
+{
+add_action("do_change","change");
+add_action("do_want","want");
+}
+
+int do_change(string str)
+{
+  object me = this_player();
+  if(str=="title")
+  {
+  if(!me->query("mark/sixgod-plan"))
+  return notify_fail("ƒ„ªπ√ª—ßπ˝¡˘Ë∫∆Ê¬‘\n");
+  if(me->query("family/family_name")!="»Â√≈")
+  return notify_fail("ƒ„“—≤ª «»Â√≈÷Æ»À\n");
+me->set("title",
+"[1;36m»Â◊[1;37m°Æ[1;45;37m¡˘Ë∫∆Ê¬‘[0m[1;37m°Ø[1;33m¥´»À[0m");
+  tell_object(me,"title–ﬁ∏ƒÕÍ≥…\n");
+  return 1;
+  }
+}
+
+int do_want(string arg)
+{
+  object me = this_player();
+  object pen = new("/open/scholar/room/newplan/obj/bird_pen.c");
+  if(!arg||arg!="∆ﬂ≤ ∑ÔªÀ± ")
+  return notify_fail("ƒ„œÎ“™ ≤√¥???\n");
+  if(!me->query("mark/sixgod-plan"))
+  return notify_fail("ƒ„Œ¥Ω‚π˝¡˘Ë∫‡∏!!\n");
+  if(me->query("family/family_name")!="»Â√≈")
+  return notify_fail("ƒ„“—≤ª «»Â√≈÷Æ»À\n");
+  if(me->query_temp("ok_get_pen"))
+  return notify_fail("ƒ„“—æ≠ƒ√π˝¡À¿≤\n");
+  me->set_temp("ok_get_pen",1);
+  pen->move(me);
+  tell_object(me,"ƒ„»°µ√¡À“ª÷ß∆ﬂ≤ ∑ÔªÀ± °£\n");
+  return 1;
+}

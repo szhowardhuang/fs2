@@ -1,0 +1,156 @@
+// /open/center/npc/vendor.c
+#include <obj.h>
+#include <ansi.h>
+#include "/open/open.h"
+
+inherit F_VENDOR;
+string ask_test();
+string ask_standby();
+
+void create()
+{
+      set_name("Âô»ð²ñµÄÐ¡À±ÃÃ", ({ "sale girl", "girl" }) );
+      set("nickname","[31mÐ¡À±½·[0m");
+        set("gender", "Å®ÐÔ" );
+        set("age", 18);
+        set("long", @LONG
+  Ò»¸öÔÚ¿ñÏë¿Õ¼äÂô»¨ÂôÁËÆßÄê¶àµÄÐ¡Å®º¢, ÖÕÓÚÂýÂý³¤´ó,
+±ä³ÉÍ¤Í¤ÓñÁ¢µÄÐ¡À±ÃÃ, Åç»ðµÄÉí²ÄÒìÓÚÑ°³£ÈË£¬Òò´Ë, »¹
+ÊÇ¾­³£±»Â·¹ýµÄÓÐÇ®´óÒ¯ÆÛ¸º¡£ÓÉÓÚÃ»ÓÐÍæ¼ÒÒª¸úËýÂò»¨,
+ËýÖÁ½ñ×î´óµÄÐÄÔ¸, »¹ÊÇÔÚÕâº®ÀäµÄ¶¬ÌìÓÐÒ»¼þÒÂ·þ´©, ²»
+¹ý, Ã»ÓÐÒÂ·þµÄ»°, Íæ¼Ò»á¸ü¸ßÐË°É, ËùÒÔ, ËýÖ»ºÃÒ»Ö±ÔÚ
+FSÂô»¨ÏÂÈ¥....
+    ×î½üËýÕýÔÚÕ÷Çó´úÌæ(standby)ËýÂô»¨µÄºÃÐÄÈË......
+
+LONG);
+        set("attitude", "friendly");
+        set("rank_info/respect", "Ð¡ÃÃÃÃ");
+        set("combat_exp",180);
+
+        set("vendor_goods", ({
+            CENTER_OBJ"torch",
+            CENTER_OBJ"map",
+        }) );
+
+        set("chat_msg", 5);
+        set("chat_msg", ({
+           "Ð¡À±ÃÃËµµÀ: Ë­ÄÜ¸øÎÒÒÂ·þ´©°¡£¬ºÃÀäÒ®¡£\n",
+           "Ð¡À±ÃÃÀ­À­ÄãµÄÒÂ·þ,ÑÛ½ÇÉÁ×ÅÀá¹âËµµÀ: ÄúÄÜ¸øÎÒÒ»¼þÒÂ·þÂð?\n",
+           "Ð¡À±ÃÃ¿ÉÁ¯ÙâÙâµÄËµµÀ: ¶¬Áî¾È¼ÃÒ»ÏÂÂï!¡£\n",
+           "Ð¡À±ÃÃ°§ÇóµØËµµÀ: ÄÜ²»ÄÜ´úÌæ(standby)ÎÒÂô»¨°¡£¿\n",
+        }) );
+set("inquiry",([
+   "ÊÔÁ¶Ó¡¼Ç" : (:ask_test:),
+   "standby" : (: ask_standby :),
+      ]));
+
+
+
+        set("greeting_msg", ({
+         "Ð¡À±ÃÃËµµÀ: ºÃÐÄµÄ´óÒ¯Ð¡½ãÃÇ£¬Âò°ÑÄ¾Í·µ±²ÄÉÕ°É¡£\n",
+         "Ð¡À±ÃÃ¿ÉÁ¯ÙâÙâµÄÇÆ×ÅÄã: ÕâÎ»ºÃÐÄµÄ´óÒ¯Ð¡½ã£¬ÉìÉìÔ®ÊÖ¾ÈÖúÎÒ°É¡£\n",
+         "Ð¡À±ÃÃÓÐÆøÎÞÁ¦µÄËµ: ºÃÐÄµÄ´óÒ¯Ð¡½ã£¬Â·¹ý´ËµØ£¬ÄÑµÀ¼ûËÀ²»¾ÈÂð?\n",
+         "Ð¡À±ÃÃ°§ÇóµØËµµÀ: ÄÜ²»ÄÜ´úÌæ(standby)ÎÒÂô»¨°¡£¿\n",
+        }) );
+        setup();
+}
+
+int accept_object(object who, object ob)
+{
+  object        me;
+
+  seteuid(getuid());
+  me = this_object();
+
+  if (who->query("quests/sale_girl") == 0) {
+    message_vision("Ð¡Å®º¢ËµµÀ: Ð»Ð»$NÉÍ´Í¡£ÃÃÃÃÎÒÎÞÒÔÎª±¨£¬ÂôµÃµÄÒ»°ÙÎÄÇ®"
+        "ÒÔ¼°ÂôÊ£µÄÒ»°ÑÄ¾Í·¸úÒ»ÕÅµØÍ¼¾Íµ±³É»Ø±¨£¬ÇëÄúÐ¦ÄÉ¡£\n",who);
+    who->pay_player(100);
+    who->set("quests/sale_girl",1);
+    new(CENTER_OBJ"torch")->move(who);
+    new(CENTER_OBJ"map")->move(who);
+    who->save();
+    return 1;
+  }
+  else {
+    message_vision("Ð¡Å®º¢ËµµÀ: Ð»Ð»$NÉÍ´Í¡£\n",who);
+    return 1;
+  }
+}
+
+string ask_test()
+{
+ if(this_player()->query("quests/yan")==3)
+ {
+  if(this_player()->query("quests/sale_girl",1) && this_player()->query("quests/yantestmark1",1) && this_player()->query("quests/2ndtest",1))
+  {
+  int i;
+  i=6+random(5);
+  command("say Ð»Ð»ÄúµÄ°ïÃ¦.ÎÒÔ¸Òâ½«appo¸øÎÒµÄÓ¡¼Ç´«µ½ÄãÉíÉÏ!\n");
+  tell_object(this_player(),HIW"Ë²¼äÓÉÂô»ð²ñµÄÐ¡À±ÃÃ½«ÊÖ´îÔÚÄãµÄ¼çÉÏ..Äã¶ÙÊ±¾õµÃÒ»¹ÉÅ¯ÒâÓÉÐ¡À±ÃÃµÄÊÖÖÐ´«¹ýÀ´\n"NOR);
+  this_player()->set("quests/2ndtest",i);
+  this_player()->set("quests/yantestmark2",1);
+  return("×îºóÒ»¸öÓ¡¼ÇÔÚÊ¥ÏÍÊéÊÖÉÏ,Äã¿ÉÒÔÈ¥ÕÒËûÎÊÎÊÁË\n");
+  }
+ else if (this_player()->query("quests/yantestmark2")>1)
+  return ("ÎÒÒÑ¾­°ÑÓ¡¼Ç¸øÄãÁË..Äã»¹Òª×öÊ²Ã´\n");
+ else
+  return ("¾ÈÖú¾ÈÖúÎÒ..ÎÒ¾Í¸úÄãËµÓ¡¼ÇÔÚÄÄ\n");
+ }
+else
+ return ("É¶Ó¡¼Ç..ÄãÔÚËµÊ²Ã´?\n");
+}
+
+string ask_standby()
+{
+  string *places = ({
+    "/open/firedancer/t01.c",
+    "/open/hall/way1.c",
+    "/open/killer/room/r1.c",
+    "/open/killer/room/ru3.c",
+    "/open/marksman/room/shop.c",
+    "/open/newhand/newhand.c",
+    "/open/port/room/port.c",
+    "/open/bonze/room/big.c",
+    "/open/start/room/f1.c",
+    "/open/tensan/room6.c",
+    "/open/wu/room/luroom1.c",
+    "/open/badman/room/s2.c",
+    "/open/capital/room/r01.c",
+    "/open/doctor/room/r4.c",
+    "/open/gblade/room/c2.c",
+    "/open/heaven/castle/room/n5.c",
+    "/open/love/room/room2-14.c",
+    "/open/mogi/castle/room10.c",
+    "/open/mogi/village/room/room-07.c",
+    "/open/prayer/room/happy.c",
+    "/open/beggar/room/room01.c",
+    "/open/center/room/r10.c",
+    "/open/evil-area/e01.c",
+    "/open/island/room/i1.c",
+    "/open/magic-manor/manor04.c",
+    "/open/mon/hole.c",
+    "/open/ping/room/f2.c",
+    "/open/snow/room/hole.c",
+    "/open/tailong/room/d3.c",
+    "/open/wind-rain/43.c",
+    "/open/biau/room6.c",
+    "/open/dancer/room/roome2.c",
+    "/open/fire-hole/f-48.c",
+    "/open/gsword/room/froad2.c",
+    "/open/poison/room/room10.c",
+    "/open/scholar/room/wind_s.c",
+    "/open/soldier/room/r36.c",
+    "/open/tendo/room/r3.c"
+  });
+
+  if (this_player()->query("standby") < 1) {
+    this_player()->add("standby", 1);
+    this_player()->move (places[random(sizeof (places))]);
+    return "say Ð»Ð»ÄúµÄ°ïÃ¦, ÎÒÔ¸ÒâÒÔÉíÏàÐí!\n";
+  }
+  else {
+    this_player()->move (places[random(sizeof (places))]);
+    return "say Ð»Ð»ÄúµÄ°ïÃ¦£¡\n";
+  }
+}

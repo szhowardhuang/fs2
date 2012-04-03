@@ -1,0 +1,262 @@
+
+µÚÁùÕÂ£º
+                       ½ø½×·¿¼ä±à¼­ËµÃ÷
+
+Ç°ÑÔ£º
+¡¡¡¡¡¡¾­¹ıÉÏÒ»ÖÜµÄÏ´Àñ£¬ÎÒÃÇ´ó¼ÒÓ¦ºÜÁË½â£¬Î×Ê¦µÄ×÷ÓÃ¡¢FTP¡¢EDIT¼°Room
+makerÀ´±àĞ´¼òµ¥µÄ·¿¼ä£¬Ò»°ãÀ´Ëµ½Ï¸´ÔÓµÄ·¿¼äÎÒÒ»°ã¶¼ÊÇ°Ñµµ°¸ÔÚPC±àºÃºó
+´«ËÍÉÏÀ´£¬ÓĞÎÊÌâµÄ»°.Ğ¡ÎÊÌâ¾ÍÖ±½ÓÔÚÏßÉÏÓÃEDIT¸ÄÁË£¬´óÎÊÌâµÄ»°¾ÍÔÚPCÏÂ
+´«ºóÖØĞÂ¸Ä¡£Õâ½ÚÖ÷ÒªÊÇ½Ìµ¼·¿¼äµÄ±à¼­(ÓÃROOMMAKERËù²»ÄÜ´ïµ½µÄ)¡£
+
+ËµÃ÷:
+Ò»¡¢roommanerµÄ·¿¼ä¼ò½é¡£
+    Ò»°ãÀ´ËµÎÒÃÇÈç¹ûÓÃRoommakerÀ´±àµÄ»°£¬ËûµÄ·¿¼äÊÇÒ»¸öºÜ¼òµ¥µÄ·¿¼ä
+¶øÇÒÃ»ÓĞÑÕÉ«¡£(ÒªÓĞÒ²¿ÉÒÔÖ±½ÓÓÃÉ«Âë¿ØÖÆ£¬¾ÍÊÇ^[[1;xm)²»¹ıÎÒÃÇÒ»°ãµÄÑÕ
+É«¿ØÖÆµÄfunctions¾ÍÃ»ÓĞÓÃÁË¡£
+ÒÔÏÂ¾ÍÊÇÓÃroommaker±àĞ´µÄ·¿¼ä:
+
+// Room: /u/c/chan/cl_room.c
+#include <room.h>            //±àĞ´Ê±ÒªÏÈ¶¨ÒåÒ»ÏÂÕâ¸öÎï¼şÊÇ·¿¼ä
+inherit ROOM;               //ÕâÑùËû²Å»á°Ñ·¿¼äµÄÒ»Ğ©functionsÈÃÄãÊ¹ÓÃ
+void create ()              //Ö÷³ÌÊ½¶Î
+{
+  set ("short", "[1;37m°ïÅÉÏµÍ³ÌÖÂÛÊÒ[2;37;0m");  //¶ÌĞğÊö
+  set ("long", @LONG                               //³¤ĞğÊö
+
+               °ï   ÅÉ   Ïµ   Í³   ÌÖ   ÂÛ   ÊÒ
+
+  ÕâÀïÊÇÈÃ¿ñÏëµÄ°ïÅÉÏµÍ³¡¢ÖÆ×÷¼°ÆäËûµÄÎÊÌâµÄÌÖÂÛ·¿¼ä£¬¶ÔÓÚ°ïÅÉÓĞÈÎ
+  ºÎµÄÎÊÌâ¼°½¨Òé£¬»¶Ó­´ó¼ÒÒ»ÆğÌ½ÌÖ¡¢ÑĞ¾¿¡£
+  
+LONG);
+
+  set("exits", ([ /* sizeof() == 5 */          //Éè¶¨³ö¿Ú
+  "acelan" : "/u/a/acelan/workroom.c",
+  "up" : "/open/wiz/hall1.c",
+  "swy" : "/u/s/swy/workroom.c",
+  "anmy" : "/u/a/anmy/workroom.c",
+  "chan" : __DIR__"workroom.c",
+]));                                          //Éè¶¨Ò»Ğ©²ÎÊı
+  set("no_fight", 1);                        //±íÊ¾²»ÄÜÕ½¶·¡¢²»ÄÜÓÃÄ§·¨
+  set("light_up", 1);                        //¼°ÕâÊÇÊÒÄÚ
+  set("no_magic", 1);
+  setup();                                      //±íÊ¾½«ÉÏĞ´µÄ²ÎÊıÍêÈ«¼ÓÈë
+}
+
+¶ş¡¢²»ÓÃRoommaker±àĞ´·¿¼ä:
+    ÓÉÓÚÓÃRoommaker±àĞ´·¿¼ä£¬Ëù±à³öÀ´µÄ·¿¼äÌ«¼òµ¥ÁË£¬ÓĞÊ±ÎÒÃÇÒªĞ´Ò»Ğ©ÃÕ
+·´¶ø´ï²»µ½ÎÒÃÇµÄÒªÇóËùÒÔÎÒÒ»Ïò±à¸´ÔÓµÄ·¿¼äÒ»ÏòÔÚPCÏÂ±àºóÔÚÉÏ´«ÉÏÀ´¡£
+    ÒÔÏÂ¾ÍÊÇÎÒ¼òµ¥µÄ½éÉÜ:::
+
+// Room: /u/c/chan/workroom.c
+#include <command.h>   //INCLUDE Ò»Ğ©±ØÒªµÄº¯Êı
+#include <mudlib.h>
+#include <room.h>
+#include <ansi.h>     //´ú±íÑÕÉ«µÄº¯Êı
+inherit ROOM;         //Ğû¸æ·¿¼ä
+void create ()
+{
+  set ("short", "[1;37m²¼ÒÂ¾Ó[1;0m");    //²»ÓÃÔÚ¶àËµÁË°É....
+  set ("long", "  //ÓÉÓÚÎÒÃÇÓĞÓÃANSI.HËùÒÔÎÒÃÇ¿ÉÒÔÓÃHICµÈµÄº¯ÊıÀ´¶¨ÒåÑÕÉ«
+  ÕâÊÇ²¼ÒÂËùÉè¼ÆÈ«²¿ÓÉ"HIC"ĞşÌì±ù¾§"NOR"´òÔì¶ø³ÉµÄ¸ß¿Æ¼¼¹¤×÷Õ¾¡£
+  ÓĞ×Å¾«ÃÜµÄ¸ß¿Æ¼¼×°±¸:\n"               //¼ÇµÃLONG¾ÍÃ»ÓĞÁËÅ¶...
+  HIW"  ÈË¹¤ÖÇ»ÛµÄ³¬¼¶µçÄÔ"NOR"(list)\n"
+  HIY"  ÎÀĞÇ´«ÊäµÄÊÓÑ¶Í¨ĞÅ×°±¸\n"
+  HIC"  ³¬ÏÈ½ø¿Æ¼¼µÄ¼à¿´µçÑÛ"NOR"(snop)\n"
+  HIR"  ³¬¿ÖÅÂµÄ¹¥»÷ÎäÆ÷¡®"HIW"µªÆøÀ×Éä"HIR"¡¯\n"
+  HIC"  ×Ô¶¯ÏÔÊ¾ĞÍµÄË®¾§¼ÇÂ¼Ê¯"NOR"
+  ÄÏ±ßÊÇ²¼ÒÂµÄĞİÏ¢ËùÔÚµØ¡£\n");
+  set("exits", ([
+  "snow" : "/open/snow/room/room2.c",
+  "cage" : "/u/c/cage/workroom.c",
+  "anmy" : "/u/a/anmy/workroom.c",
+  "down" : "/u/c/chan/fi_room.c",
+  "swy"  : "/u/s/swy/workroom.c",
+  "south" : __DIR__"room/restroom.c",
+  "lungshan" : "/open/wu/room/luroom18.c",
+  "hall1" : "/open/wiz/hall1.c",
+]));
+  set("light_up", 1);
+  setup();
+  call_other("/obj/board/chan_b","???");    //¼ÓÈëÎÒµÄBOARD
+}
+void init()                //INIT()µÄÖ¸ÁîÖ÷ÒªÊÇÀ´×¥£¬Íæ¼ÒÈç¹ûÓĞ°´Ä³Ö¸ÁîµÄ»°¾Í
+{                          //Ö´ĞĞÄ³º¯Êı
+add_action("list_array","list");    //ÀıÈç°´LIST¼°SNOP¾ÍÖ´ĞĞ..LIST_ARRAY¼°
+add_action("snop_array","snop");     //SNOP_ARRAYµÄº¯Êı
+}
+int list_array(string str)        //LIST_ARRAYµÄº¯Êı£¬STR´ú±íÒ»¸ö×Ö´®¿ÉÓĞ¿ÉÎŞ
+{                                //ÒòÎªÃ»ÓĞÓÃµ½
+int i,j=0;
+int n;
+object *glist,room;             //ÒòÎªÎÒÃÇ×¥×ÊÁÏµÄĞÍÌ¬µÄ¹ØÏµ£¬ËùÒÔÒª¶¨Òå
+glist=users();                 //×¥³ö×ÊÁÏºóÁĞ³ö
+n=sizeof(glist);
+message_vision(HIW"¡®"HIC"ÎäÕß"HIW"¡¯Íæ¼ÒÒ»ÀÀ±í\n"NOR,this_player());
+message_vision(HIR"<<---------------------------------->>\n"NOR,this_player());
+  for(i=n-1;i>=0;i--){
+  if(glist[i]->query("class") == "fighter" ){
+   message_vision(glist[i]->query("name")+glist[i]->query("id")+"ÃÅÅÉ:"+glist[i]->query("family/family_name")+"\n",this_player());
+                                            }
+                     }
+return 1;
+
+}
+/*
+int query_autoload()
+{
+if (this_player()->query("id") == "chan"  )
+  {
+   message_vision(HIR"ÌìÉÏ´«ÏÂÅ­ºğÖ®Éù!!!¾¹È»Ïë¼àÌı´óÉñ²¼ÒÂ!!!È¥ËÀ°É\n"NOR,this_player());
+   message_vision(HIR"Ò»µÀºìÉ«µÄËÀ¹âÏò$NÉäÈ¥\n"NOR,this_player());
+   this_player()->set("kee",-100);
+  }
+   return 1;
+}
+*/
+int snop_array(string arg)
+{
+     object ob,me;
+     me=this_player();          //´ú±í×Ô¼º
+     if(me->query("id") != "chan")
+       return notify_fail("Ö»ÓĞ´óÉñ²¼ÒÂ²ÅÄÜ¼àÌı¡£\n");
+     if( !arg )
+      {
+       if( objectp(ob = query_snooping(me)) ) //ob´ú±íÍæ¼Ò
+         write("ÄãÏÖÔÚÕıÔÚ¼àÌı" + ob->query("name") + "ËùÊÕµ½µÄÑ¶Ï¢¡£\n");
+         return 1;
+      }
+   if( arg=="none" )
+       {
+   if( objectp(ob = query_snooping(me)))
+       write("ÄãÍ£Ö¹¼àÌı"+ob->query("name")+"ËùÊÕµ½µÄÑ¶Ï¢¡£\n");
+       snoop(me);
+       return 1;
+       }
+       ob = find_player(arg);
+
+   if (!ob) ob = find_object(arg);
+if(!ob)
+return notify_fail("Ã»ÓĞÕâ¸öÈË¡£\n");
+if (ob->query("id") == "chan"  )
+  {
+   message_vision(HIR"ÌìÉÏ´«ÏÂÅ­ºğÖ®Éù!!!¾¹È»Ïë¼àÌı´óÉñ²¼ÒÂ!!!È¥ËÀ°É\n"NOR,this_player());
+   message_vision(HIC"Ò»µÀµªÆøÀ×ÉäÅÚÏò$NÉäÈ¥¿ÉÅÂµÄ¹âÏß\n"NOR,this_player());
+   this_player()->set("kee",-100);
+   return 1;
+  }
+   if( me==ob ) return notify_fail("ÇëÓÃ snop none ½â³ı¼àÌı¡£\n");
+     snoop(me, ob);
+     return 1;
+}
+ÔÚ²¹³äÒ»¸ö°¸Àı::
+inherit ROOM;
+#include <room.h>
+#include <ansi.h>
+void create ()
+{
+  seteuid(getuid());
+        set("short",CYN"µØÀÎ"NOR);
+        set("long", @LONG            //Èç¹ûÎÒÃÇ²»ÔÚ³¤ĞğÊöÉÏ¼ÓÑÕÉ«µÄ»°¾ÍÕâÑùĞ´
+Äã×ß½øÒ»¼äÒõ°µ³±ÊªµÄĞ¡·¿¼ä£¬¸Õ½ø·¿¼äÊ±Äã¾õµÃÒ»Æ¬ÆáºÚ£¬µÈÄã
+ÑÛ¾¦ÂıÂıÏ°¹ßºÚ°µºó£¬ÄãºÕÈ»·¢¾õÓĞ¸öÈË±»ËøÔÚÕâÀï£¬ËûËÄÖ«±»ÌúÁ´Ëø
+×¡£¬ÅıÅÃ¹ÇÒ²±»ÌúÁ´¹á´©£¬ËûµÍ×ÅÍ·¶¯Ò²²»¶¯£¬ÁîÄã²»ÖªËûÊÇËÀÊÇ»î..
+LONG
+        );
+        set("exits", ([ /* sizeof() == 1 */
+  "south" : "/open/wu/room/gen17",
+]));
+  set("light_up", 1);
+  set("no_transmit",1);
+  set("no_auc",1);
+  set("need_key/south",1);       //Éè¶¨doorµÄ·¿Ïò¼°keyÅ¶
+  create_door("south",HIB"À¶É«ÌúÃÅ"NOR,"north",DOOR_LOCKED);
+  set("objects", ([ /* sizeof() == 1 */    //¼ÓÈëÒ»¸öÎï¼ş Ò¶¿ñ
+  "/open/wu/obj/ya1" : 1,
+]));
+  setup();
+}
+void init()
+{
+ add_action("free_ya","free");
+}
+
+int free_ya(string str)
+{
+  object ob,ob1;
+  ob=this_player();
+  if(!present("ya",environment(ob)))       //meÊÇ´ú±í×Ô¼º»òÍæ¼Ò ob´ú±íÎï¼şÅ¶
+    return notify_fail("ÈËÈ¥Â¥¿ÕÁË£¬Äã»¹·ÅÊ²Ã´¡£\n");
+  if( str!="ya")
+    return notify_fail("ÄãÒªÊÍ·ÅË­Ñ½¡£\n");
+  if( ob->query("force") > 1500)
+  {
+  message_vision(HIW"$NÔËÆğÈ«ÉíÄÚÁ¦³¶¶Ï"HIC"º®±ùÌúÁ´"HIW".........\n"NOR,ob);
+ob->set("get_head",1);
+  write("\n");
+     ob1=present("ya",this_object());
+  destruct(ob1);
+  call_out("msg1",3,ob);
+  return 1;
+  }
+  else
+  {
+   message_vision(HIW"$NÔËÆğÄÚÁ¦ÏëÒª³¶¶Ï"HIC"º®±ùÌúÁ´"NOR"£¬ÓÉÓÚÄÚÁ¦²»×ã±»ÌúÁ´ÉÏµÄº®ÆøËùÇÖ!!\n"NOR,ob);
+   ob->add("kee",-150);
+   return 0;
+  }
+}
+int msg1(object ob)
+{
+ message_vision("\n",ob);
+ message_vision("Ö»¼ûÒ¶¿ñÔËÆğÄÚÁ¦£¬ÉíÉÏ·¢³ö±¬ÁÑ°ãµÄÉùÒô\n",ob);
+  call_out("msg2",3,ob);
+  return 1;
+}
+int msg2(object ob)
+{
+  object ob1;
+  message_vision("Ò¶¿ñµÀ: Ğ¡×ÓĞ»Ğ»ÄãÀ².....\n",ob);
+  message_vision("Ò¶¿ñË«ÊÖÏòÉÏÒ»»÷£¬ºäµÄÒ»Éù!!µØÀÎÉÏ·½±»´ò³öÒ»¸ö´ó¶´£¬×ßÁË³öÈ¥¡£\n", ob) ;
+  set("exits/up","/open/ping/room/road4");
+  ob1=new("/open/wu/npc/ya");
+  ob1->move("/open/main/room/m11");
+  ob1->set("get_head",1);
+  message("mud",HIC"Ò¶¿ñ´óÉùºğµÀ:"HIW"ÎÒ×ÔÓÉÁË!!ÎÒ×ÔÓÉÁË!!¸´³ğµÄÊ±¿ÌÖÕÓÚÀ´ÁÙÁË\n"NOR,users());
+  call_out("msg3",3,ob);
+  return 1;
+}
+int msg3(object ob)
+{
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom1");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom1");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom2");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom2");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom2");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom2");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom3");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom3");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom3");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom4");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom4");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom7");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom7");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom7");
+ new("/open/wu/npc/badnit")->move("/open/wu/room/luroom4");
+ message("mud",HIC"¶Å É±ºğµÀ:"HIW
+               "¶ñÈË¹ÈµÄ†ª†ªÃÇ!!!½«ãñÉ½´ÓÎäÁÖÖĞ³ıÃû°É!!!!"NOR,users());
+  call_out("msg4",3,ob);
+  return 1;
+ }
+int msg4(object ob)
+{
+message("mud",HIR"\nÖ£Ê¿ĞÀÌ¾µÀ:
+         Ë­¿ÉÒÔÍì¾ÈÕâÎäÁÖºÆ½ÙÄØ£¿£¿£¿\n"NOR,users());
+  return 1;
+}
+
+×îºó::
+    ¿´¹ıÒÔÉÏµÄ·¿¼ä½éÉÜÏàĞÅÄã×Ô¼ºÓ¦¸Ã¶¼»áÁË...ÕâÑù×Ó..·¿¼äµÄ²¿·İ¾Í
+½áÊøÁË......
+                                                        by Chan 07/27/98
+×¢Òâ::´ËÎÄ¼ş½ö¹©FSµÄWIZ²Î¿¼ÓÃ..Èô·Ç¾­ChanĞí¿É.½ûÖ¹Á÷³ö....·ñÔò...

@@ -1,0 +1,42 @@
+#include <command.h>
+#include <weapon.h>
+#include <ansi.h>
+
+inherit UNARMED;
+
+void create()
+{
+     set_name("[32mÊ¥»ð½ÌµÄÁîÅÆ[0m",({"iron board","board"}) );
+     set_weight(3000);
+     if( clonep() ) 
+     set_default_object(__FILE__);
+     else 
+     {
+     set("long",@LONG
+
+     Ê¥»ð½ÌÍ½µÄÐÅÎïÖ®Ò», ´ËÁîÅÆÊÇÒÔÉúÌúÖý³É, ²¢ÔÚÆäÉÏ¿ÌÒÔÏóÕ÷
+     Ê¥»ð½ÌµÄÊ¥»ðÍ¼Ñù!!³ýÁË×öÎªÊ¥»ð½ÌÃÅÍ½µÄ±æÈÏÖ®Íâ, ¸ü¿ÉÒÔ½«
+     ËüÎÕÔÚÊÖÖÐ×öÎªÍ½ÊÖ¹¦»÷µÄÎäÆ÷¡£
+ 
+LONG);
+     set("unit", "Ö»");             
+     set("value",60);
+     set("no_sell",1);
+     set("no_give",1);
+     set("no_auc",1);
+     set("no_drop",1);
+     set("material","iron");
+     }
+     init_unarmed(60);
+ 
+     setup();
+}
+void init()
+{
+  object me;
+  seteuid(geteuid());
+  me = this_player();
+  this_object()->set_name(""+(string)this_player()->name(1)+"µÄ"HIG"ÁîÅÆ"NOR,({"iron board","board"}));
+}
+
+                   

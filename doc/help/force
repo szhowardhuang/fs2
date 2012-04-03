@@ -1,0 +1,24 @@
+¡õ Ò»°ãÄÚ¹¦µÄ¹¦ÓÃ
+
+´óÂÔÀ´Ëµ£¬ÕâÐ©¶¼ÊÇ»ù±¾µÄ¹¦ÄÜ£¬Òò´ËÍþÁ¦²»»áÌ«´ó£¬ÊÊºÏÐ¡Íæ¼ÒÀ´Ê¹ÓÃ¡£
+ÒÔÏÂÊÇÒ»Ð©ÄÚ¹¦³£¼ûµÄ¹¦ÓÃ£¬²»Ò»¶¨ËùÓÐÄÚ¹¦¶¼ÓÐÕâÐ©¹¦ÄÜ£¬Äã±ØÐëÊÔÊÔ¿´²ÅÖªµÀ¡£
+[1m¸ßÁÁ¶È[0mÏÔÊ¾´Ë¹¦ÄÜÄ¿Ç°¿ª·Å¡£
+
+[1mregenerate[0m         »Ö¸´×Ô¼ºµÄ¾«
+[1mrecover[0m            »Ö¸´×Ô¼ºµÄÆø
+[1mrefresh[0m            »Ö¸´×Ô¼ºµÄÉñ
+[1mreseckee[0m           »Ö¸´×Ô¼ºµÄÁéÆø
+[1mheal[0m               ÓÃÄÚÁ¦ÁÆÆø    Ò½Éú¡¢ÎäÕß¡¢ºÍÉÐ
+[1msencure[0m            ÓÃÄÚÁ¦ÁÆÉñ    Ò½Éú¡¢ÌìµÀ
+[1mgincure[0m            ÓÃÄÚÁ¦ÁÆ¾«    Ò½Éú¡¢ÎèÕß
+[1mfocuskee[0m           ½«ÄÚÁ¦¾Û¼¯ÔÚµ¶ÉÏ£¬ÒÔÔöÇ¿ÍþÁ¦    µ¶¿Í
+[1mroar[0m               ÓÃÄÚÁ¦·¢³öºðÉù£¬Õð»èÍ¬Ò»·¿¼äµÄÆäËûÉúÎï    ÎäÕß
+[1mtransfer[0m           ½«ÄÚÁ¦´«¸ø±ðÈË£¬ÏÞÍ¬ÖÖÀàÄÚ¹¦
+break              ÓÃÄÚÁ¦»Ù»µÒ»¼þÎïÆ·
+mobilize           ÓÃÄÚÁ¦³å¿ª±»·â±ÕµÄÑ¨µÀ
+slowpoison         ÓÃÄÚÁ¦ÑÓ³ÙÌåÄÚ¶¾ËØ·¢×÷Ê±¼ä
+depoison           ÓÃÄÚÁ¦½«ÌåÄÚ¶¾ËØÍêÈ«±Æ³öÌåÍâ        (Ä§½Ìáã)
+
+By Annihilator (03/20/95)
+Refix By Onion (05/07/96)
+Fix By Swy     (06/20/98)
