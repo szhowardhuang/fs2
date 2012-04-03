@@ -1,7 +1,7 @@
 #include <ansi.h>
 
 inherit ITEM;
-inherit F_LIQUID;
+//inherit F_LIQUID;
 
 int extra_func();
 int drink_func();

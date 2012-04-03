@@ -1,7 +1,7 @@
 // by onion
 
 inherit ITEM;
-inherit F_LIQUID;
+//inherit F_LIQUID;
 
 int extra_func();
 

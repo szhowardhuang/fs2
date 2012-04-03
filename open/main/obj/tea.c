@@ -1,7 +1,7 @@
 #include "/open/open.h"
 
 inherit ITEM;
-inherit F_LIQUID;
+//inherit F_LIQUID;
 
 void create()
 {
@@ -49,7 +49,7 @@ int do_send(string arg)
   }
   else
     message_vision ("燕南天喝了药茶之后，显得神清气爽。\n", me);
-    
+
   destruct(this_object());
   return 1;
 }
