@@ -16,7 +16,7 @@ set("long","
 瀛听说其实力不亚于叶孤城 .与叶孤城从东瀛回来之后就封刀不再出任务 ,却到这里
 掌厨,口中常常哼着一些奇怪的(歌曲) .
 \n");
-  set("gender","男性"); 
+  set("gender","男性");
   set("class","killer");
   set("title","老厨师");
   set("attitude","heroism");
@@ -185,7 +185,7 @@ int accept_object( object me , object ob ,object obj )
 {
 if (me->query_temp("complete") == 1 && ob->query("id") =="old dagger")
 {
-tell_object(me,HIY"鲁仝一见到匕首, 便老泪\纵衡激动的说道:\n"NOR);
+tell_object(me,HIY"鲁仝一见到匕首, 便老泪纵衡激动的说道:\n"NOR);
 tell_object(me,HIY"事隔几十年, 我终于得到了我长年来的梦想!!年轻人, 真是谢谢你了!!\n\n"NOR);
 tell_object(me,HIC"这把匕首, 原来是鲁仝最珍惜的随身武器, 当年鲁仝承诺丽子将来愿意\n"NOR);
 tell_object(me,HIC"舍弃杀戮而与她自由自在遨游世界时, 便是以这把匕首为信物. 鲁仝与\n"NOR);
@@ -201,7 +201,7 @@ return 1;
 }
 if (me->query_temp("care") == 1 && ob->query("id") =="old dagger")
 {
-tell_object(me,HIY"鲁仝一见到匕首, 便老泪\纵衡激动的说道:\n"NOR);
+tell_object(me,HIY"鲁仝一见到匕首, 便老泪纵衡激动的说道:\n"NOR);
 tell_object(me,HIY"事隔几十年, 我终于得到了我长年来的梦想!!年轻人, 真是谢谢你了!!\n\n"NOR);
 tell_object(me,HIC"这把匕首, 原来是鲁仝最珍惜的随身武器, 当年鲁仝承诺丽子将来愿意\n"NOR);
 tell_object(me,HIC"舍弃杀戮而与她自由自在遨游世界时, 便是以这把匕首为信物. 鲁仝与\n"NOR);

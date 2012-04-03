@@ -2,7 +2,7 @@
 inherit ROOM;
 void create ()
 {
-  set ("short", "杀手餐\厅");
+  set ("short", "杀手餐厅");
 	set( "build", 65 );
   set ("long", @LONG
     这里是杀手们练习后，用餐的好地方。四周已经有不少人在吃饭了。
@@ -15,7 +15,7 @@ LONG);
   "/open/killer/island/npc/luton.c" : 1,
 ]));
   set("item_desc", ([ /* sizeof() == 1 */
-  "table" : "如果想叫餐\，请用forder XXXX决定既可，老板会尽快服务的。
+  "table" : "如果想叫餐，请用forder XXXX决定既可，老板会尽快服务的。
 
              A : 阳春面          30  coins
 
@@ -23,7 +23,7 @@ LONG);
 
              C : 温州大馄饨     100  coins
 
-             D : 海陆大餐\     150  coins
+             D : 海陆大餐     150  coins
 
             ",
 ]));
@@ -54,7 +54,7 @@ int do_order(string str)
         switch(str)
         {
          case "A":
-         { 
+         {
           if ((int)me->query("food") >= (int)me->max_food_capacity())
           {
             tell_object(me,"你想撑死吗？会饿才来吧！.......\n");
@@ -62,7 +62,7 @@ int do_order(string str)
           }
           if(!me->can_afford(30))
           {
-           tell_object(me,"想吃霸王餐\吗？带点钱来吧。\n");
+           tell_object(me,"想吃霸王餐吗？带点钱来吧。\n");
            return 0;
           }
           me->add("food",40);
@@ -72,7 +72,7 @@ int do_order(string str)
           return 1;
          }
          case "B":
-         { 
+         {
           if ((int)me->query("food") >= (int)me->max_food_capacity())
           {
             tell_object(me,"你想撑死吗？会饿才来吧！.......\n");
@@ -80,7 +80,7 @@ int do_order(string str)
           }
           if(!me->can_afford(70))
           {
-           tell_object(me,"想吃霸王餐\吗？带点钱来吧。\n");
+           tell_object(me,"想吃霸王餐吗？带点钱来吧。\n");
            return 0;
           }
           me->add("food",90);
@@ -90,7 +90,7 @@ int do_order(string str)
           return 1;
          }
          case "C":
-         { 
+         {
           if ((int)me->query("food") >= (int)me->max_food_capacity())
           {
             tell_object(me,"你想撑死吗？会饿才来吧！.......\n");
@@ -98,7 +98,7 @@ int do_order(string str)
           }
           if(!me->can_afford(100))
           {
-           tell_object(me,"想吃霸王餐\吗？带点钱来吧。\n");
+           tell_object(me,"想吃霸王餐吗？带点钱来吧。\n");
            return 0;
           }
           me->add("food",100);
@@ -108,7 +108,7 @@ int do_order(string str)
           return 1;
          }
          case "D":
-         { 
+         {
           if ((int)me->query("food") >= (int)me->max_food_capacity())
           {
             tell_object(me,"你想撑死吗？会饿才来吧！.......\n");
@@ -116,13 +116,13 @@ int do_order(string str)
           }
           if(!me->can_afford(150))
           {
-           tell_object(me,"想吃霸王餐\吗？带点钱来吧。\n");
+           tell_object(me,"想吃霸王餐吗？带点钱来吧。\n");
            return 0;
           }
           me->add("food",150);
           me->add("water",150);
           me->pay_money(150);
-          tell_object(me,"一整套的海陆大餐\端了上来，令你吃的不亦乐乎。\n");
+          tell_object(me,"一整套的海陆大餐端了上来，令你吃的不亦乐乎。\n");
           return 1;
          }
         }
