@@ -24,7 +24,7 @@ set ("long","这次网聚共有将近七十位玩家参加!!!!
            1.请打get_fix_gift
 固定的技能的部份：
            1.请打get_basic_force 加基本心法
-           2.请source及wasain请post你要加的特别内\功心法,才能加入程式!!!!
+           2.请source及wasain请post你要加的特别内功心法,才能加入程式!!!!
 内力最大值的部份：
            1.请打get_max_force
 

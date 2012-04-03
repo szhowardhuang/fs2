@@ -33,11 +33,11 @@ long);
   call_other("/obj/board/start_b", "???");
 }
 
-//如果你是这里的新朋友，虔诚的祈祷(pray howard), 天神会将你传送到新手练功区喔。
+//如果你是这里的新朋友，虔诚的祈祷(pray), 天神会将你传送到新手练功区喔。
 void init()
 {
   ::init();
-  add_action ("do_pray","pray howard");
+  add_action ("do_pray","pray");
 }
 int do_pray()
 {
