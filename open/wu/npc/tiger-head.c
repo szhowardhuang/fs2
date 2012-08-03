@@ -21,13 +21,14 @@ int do_cut(string arg)
     object me, ob;
 
     me=this_player();
-
+    ob=new("/open/doctor/obj/cornu");
+    
     if(!arg || arg != "cornu")
         return notify_fail("你要切什么东西？\n");
     if(!me->query_temp("find_cornu")==1 && ob->query_temp("for_cut")==1)
         return notify_fail("你还要切什么？这是[独角虎]的头ㄟ...\n");
         write("你随手捡了把刀，「唰”的一声，把独角虎头的角给切了下来...\n"NOR);
-        ob=new("/open/doctor/obj/cornu");
+
         ob->move(me);
         ob->set_temp("for_cut",1);
         me->delete_temp("find_cornu");
